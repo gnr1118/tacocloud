@@ -10,6 +10,12 @@ management:
   info:
     git:
       mode: full
+      
+eureka:
+  instance:
+    metadata-map:
+      user.name: admin
+      user.password: password
 
 info:
   contact:
