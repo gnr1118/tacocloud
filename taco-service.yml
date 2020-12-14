@@ -3,7 +3,10 @@ management:
     web:
       exposure:
         include: '*'
-        exclude: threaddump,heapdump
+        exclude: threaddump,heapdump    
+    jmx:
+      exposure:
+        include: '*'
   endpoint:
     health:
       show-details: always
